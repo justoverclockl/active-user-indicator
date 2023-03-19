@@ -4,6 +4,9 @@
 
 A [Flarum](http://flarum.org) extension. Add visual indicator for inactive users inside Users list.
 
+![notactive](https://user-images.githubusercontent.com/79002016/226147290-8d9dfa44-4eed-43b7-84a4-a76a2ed0780d.png)
+
+
 ## Installation
 
 Install with composer:
