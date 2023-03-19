@@ -1,0 +1,55 @@
+{
+    "name": "justoverclock/be-active-user-indicator",
+    "description": "Add visual indicator for inactive users inside Users list.",
+    "keywords": [
+        "active user indicator"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justoverclock\\ActiveUsersIndicator\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Active Users Indicator",
+            "category": "",
+            "icon": {
+                "name": "fas fa-user-visor",
+                "color": "white",
+                "backgroundColor": "green"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": false,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
