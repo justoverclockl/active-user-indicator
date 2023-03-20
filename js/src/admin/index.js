@@ -9,7 +9,6 @@ app.initializers.add('justoverclock/be-active-user-indicator', () => {
       {
         name: app.translator.trans('justoverclock-be-active-user-indicator.admin.activeUI'),
         content: (user) => {
-          console.log(user)
           const isActive = user.data.attributes.isEmailConfirmed
           if (isActive) {
             return (
